@@ -30,16 +30,19 @@
   justify-content: center;
   margin-bottom: 20px;
   font-size: 18px;
+  text-decoration: none;
 }
 
 .tabs span {
   margin: 0 10px;
   cursor: pointer;
+  
 }
 
 .tabs .active {
   font-weight: bold;
   border-bottom: 2px solid black;
+  text-decoration: none;
 }
 
 form {
@@ -113,8 +116,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 }
 /* тут закінчується стиль реєстрації  */
 
-
-body {
+.body {
   font-family: 'Cera Pro', sans-serif;
   background-color: #f9f9f9;
 }
@@ -212,8 +214,6 @@ body {
   height: 18px;
   width: 18px;
 }
-
-
 
 .offer {
   display: flex;
