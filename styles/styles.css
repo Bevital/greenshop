@@ -1,0 +1,264 @@
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: Cera Pro, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.modal {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px; 
+  position: relative;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #009900;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.tabs span {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.tabs .active {
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.divider {
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  width: 40%;
+  height: 1px;
+  background-color: #ccc;
+  top: 50%;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.divider span {
+  background: white;
+  padding: 0 10px;
+  color: #666;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.social-btn img {
+  width: 20px;
+  margin-right: 10px;
+}
+/* тут закінчується стиль реєстрації  */
+
+
+body {
+  font-family: 'Cera Pro', sans-serif;
+  background-color: #f9f9f9;
+}
+
+
+.container__header {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+
+.header__box {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 60px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+
+.nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.nav__list {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav__list li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.nav__list .link {
+  text-decoration: none;
+  color: #2d2d2d;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px;
+  transition: color 0.3s;
+}
+
+.nav__list .link:hover {
+  color: #46a358;
+}
+
+
+.nav__list .link.active {
+  font-weight: bold;
+  border-bottom: 2px solid #46a358;
+}
+
+
+.btn__box {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.login-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #46a358;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #3a8d48;
+}
+
+.login-btn img {
+  height: 18px;
+  width: 18px;
+}
+
+
+
+.offer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.offer__holder {
+  width: 50%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.offer__title {
+  font-size: 70px;
+  margin: 20px 0;
+  font-weight: 700;
+}
+
+.offer__descriptions {
+  font-size: 14px;
+  margin-bottom: 30px;
+  color: #555;
+  max-width: 90%;
+}
+
+.offer__button {
+  background-color: #46A358;
+  border: none;
+  padding: 14px 28px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.offer__image {
+  width: 50%;
+  text-align: center;
+}
+
+.offer__image img {
+  max-width: 100%;
+  height: auto;
+}
