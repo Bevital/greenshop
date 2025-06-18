@@ -8,14 +8,14 @@
   <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
-  <header class="container__header">
-    <div class="header__container">
+  <header class="header">
+    <class="header__container">
       <a class="logo" href="index.html">
         <img src="img/group.svg" alt="logo">
       </a>
       <nav class="nav">
         <ul class="nav__list">
-          <li>
+          <li class="active">
             <a class="link" href="#">Home</a>
           </li>
           <li>
@@ -29,35 +29,35 @@
           </li>
         </ul>
       </nav>
-    </div>
     <div class="btn__box">
       <a href="registration.html">
         <button class="login-btn">
           <img src="img/logout.svg" alt="Login Icon">
-          Login
+          <span class="btn__span">Login</span>
         </button>
       </a>
     </div>
+  </div>
   </header>
   <main>
-    <section class="offer container ">
+    <section class="offer__container">
       <div class="offer__holder">
         <p>
           Welcome to GreenShop
         </p>
         <h1 class="offer__title">
-          Let’s Make a
-          <p>Better Planet</p>
+          Let’s Make a<br><span>Better Planet</span>
         </h1>
+        
         <p class="offer__descriptions">
           We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an
           unique Urban Jungle. Order your favorite plants!
         </p>
         <button class="offer__button">
-          SHOP NOW
+          <a href="#" class="login-btn img">SHOP NOW</a>
         </button>
       </div>
-      <div class="img__box">
+      <div class="img__flower">
          <img src="img/imgbanner.png" alt="flower" >
       </div>
     </section>
