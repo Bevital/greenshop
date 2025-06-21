@@ -117,7 +117,7 @@ input[type="text"], input[type="email"], input[type="password"] {
 /* тут закінчується стиль реєстрації  */
 
 .header__container{
-  max-width: 1440px;
+  max-width: 1200px;
   margin: 0 auto;
   font-size: 0; 
   white-space: nowrap;
@@ -151,21 +151,40 @@ input[type="text"], input[type="email"], input[type="password"] {
 .btn__box{
 min-width: 100px;
 }
-.login-btn img,
-.new__btn,
-.login-btn,
-.btn__span{
 
-display: inline-block;
-vertical-align: middle;
-background:#46A358;
-color: #FFFFFF;
-border: 1px solid #46A358;
-border-radius: 6px;
-padding: auto;
-text-decoration: none;
-text-align: center;
-
+.btn__box {
+  display: inline-block;
+  vertical-align: middle;
+}
+.login-btn  {
+  display: inline-block; 
+  vertical-align: middle;
+  background-color: #46A358;
+  color: #FFFFFF;
+  border: 1px solid #46A358;
+  border-radius: 6px;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 16px;          
+  font-weight: bold;         
+  cursor: pointer;    
+  text-align: center;
+  white-space: nowrap;     
+}
+.login-btn img {
+  display: inline-block; 
+  vertical-align: middle; 
+  height: 18px;           
+  width: 18px;            
+  margin-right: 8px;   
+}
+.btn__span {
+  display: inline-block; 
+  vertical-align: middle; 
+}
+.login-btn:hover {
+  background-color: #3a8d48; 
+  border-color: #3a8d48;     
 }
 .nav{
   width: calc(100% - 250px);
@@ -183,12 +202,25 @@ text-align: center;
   margin:0 30px; 
   font-size: 16px; 
 }
+.nav__list li.active .link {
+  font-family: Cera Pro;
+  font-weight: 400; 
+  font-size: 16px;  
+  color: #46a358;  
+  border-bottom: 2px solid #46a358;
+}
 .link {
   text-decoration: none;
   color: #3D3D3D;
 }
+.link:hover{
+  color: #ccc;
+  background-color: #000000
+  
+}
 .offer__container{
   padding: 30px;
+  background-color: #F5F5F580;
 }
 .offer__title span {
   display: block;
@@ -211,7 +243,8 @@ text-align: center;
 }
 
 .offer__holder {
-  text-align: left;
+  width: 50%;
+  font-size: 14px;
 }
 
 .offer__holder p:first-child {
@@ -224,7 +257,6 @@ text-align: center;
 
 .offer__title {
   font-size: 70px;
-  font-weight: 700;
   margin: 20px 0;
   line-height: 1.2;
   font-family: 'Cera Pro', sans-serif;
@@ -253,10 +285,20 @@ text-align: center;
   cursor: pointer;
   border-radius: 4px;
 }
+.offer__button:hover{
+  background-color: #000000
+}
 
-.offer__button a {
-  color: white;
-  text-decoration: none;
+.offer__button p {
+display: inline-block;
+vertical-align: middle;
+background:#46A358;
+color: #FFFFFF;
+border: 1px solid #46A358;
+border-radius: 6px;
+padding: 10px 20px;
+text-decoration: none;
+text-align: center;
 }
 
 .img__flower {
@@ -267,4 +309,3 @@ text-align: center;
   max-width: 100%;
   height: auto;
 }
-
