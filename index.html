@@ -4,10 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Greenshop</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style/reset.css">
+  <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
-  <a href="registration.html"> Registration</a>
-
+  <header class="header">
+    <div class="header__container">
+      <a class="logo" href="index.html">
+        <img src="img/group.svg" alt="GreenShop">
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="active">
+            <a class="link" href="#">Home</a>
+          </li>
+          <li>
+            <a class="link" href="#">Shop</a>
+          </li>
+          <li>
+            <a class="link" href="#">Plant Care</a>
+          </li>
+          <li>
+            <a class="link" href="#">Blogs</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="btn__box">
+        <a href="registration.html" class="login-btn">
+          <img src="img/logout.svg" alt="Login Icon">
+          <span class="btn__span">Login</span>
+        </a>
+      </div>
+  </div>
+  </header>
+  <main>
+    <section class="offer__container">
+      <div class="offer__holder">
+        <p>
+          Welcome to GreenShop
+        </p>
+        <h1 class="offer__title">
+          Let’s Make a<br><span>Better Planet</span>
+        </h1>
+        <p class="offer__descriptions">
+          We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an
+          unique Urban Jungle. Order your favorite plants!
+        </p>
+        <button class="offer__button">
+          SHOP NOW
+        </button>
+      </div>
+      <div class="img__flower">
+         <img src="img/imgbanner.png" alt="flower" >
+      </div>
+    </section>
+  </main>
 </body>
 </html>
